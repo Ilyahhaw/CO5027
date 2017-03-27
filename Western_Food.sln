@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Western_Food", "Western_Food\Western_Food.csproj", "{BA9D3491-8A53-4F61-8671-4A434E4024FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9D3491-8A53-4F61-8671-4A434E4024FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9D3491-8A53-4F61-8671-4A434E4024FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9D3491-8A53-4F61-8671-4A434E4024FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9D3491-8A53-4F61-8671-4A434E4024FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
