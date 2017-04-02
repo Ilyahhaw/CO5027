@@ -1,0 +1,156 @@
+﻿body { 
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+    width:900px;
+    background-color:#CBBF97;
+}
+
+#banner{
+    position:center;
+}
+
+#socialmedia a{
+    display:inline;
+    margin-top:4px;
+}
+
+#menus {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#806543 ;
+	margin-bottom: 2px;
+}
+
+#menus ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menus ul li {
+	display: inline;
+}
+
+#menus ul li a {
+	cursor: text;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 1px 1px;
+	color: #ffffff;
+	background-color: none;
+}
+
+#menus ul li a:hover {
+        color: #CBBF97;
+    }
+   
+
+#footer {
+    background-color:#806543;
+    border:double;
+    border-color:#000000;
+    text-align:center;
+    margin-top:4px;
+    padding:3px 3px 3px 3px;
+    clear:both;
+}
+
+#footer ul li {
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+#footer ul li a {
+    color:#ffffff
+}
+
+
+#contactleft {
+    background-color:#9d898c;
+    width:500px;
+    padding:12px;
+    margin:2% 0% 5% 0%;
+    float:left;
+}
+
+#contactleft h1{
+    text-align:center;
+    margin-top:4px;
+}
+
+#contactleft p{
+    font-size:16px;
+    text-align:justify;
+    
+}
+
+#contactleft a{
+
+}
+
+
+#contactright {
+    background-color:#9d898c;
+    width:330px;
+    padding:12px;
+    margin:2% 0% 5% 0%;
+    float:right;
+}
+
+#contactright h1{
+    text-align:center;
+    margin-top:4px;
+}
+
+#contactright p{
+    font-size:16px;
+    text-align:center;
+}
+
+#pasta{
+    position:center;
+}
+
+#pasta h2{
+    text-align:left;
+}
+
+#pasta tr td {
+    padding: 5px;
+    margin: 5% 2% 5% 2%; 
+    clear:both; 
+}
+
+#fries{
+    position:center;
+}
+
+#fries h2{
+    text-align:left;
+}
+
+#fries tr td {
+    position: center;
+    padding: 5px;
+    margin: 5% 2% 5% 2%;  
+    clear:both;
+}
+
+#beverage{
+    position:center;
+}
+
+#beverage h2{
+    text-align:left;
+}
+
+#beverage tr td {
+    position: center;
+    padding: 5px;
+    margin: 5% 2% 5% 2%;
+    clear:both;  
+}
