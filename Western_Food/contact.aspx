@@ -52,7 +52,7 @@
         <p> <img src="images/twitter.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
     
-        <div id="map">
+        <div id="map"></div>
             <script>
               var map;
               function initMap() {
@@ -62,9 +62,10 @@
                 });
               }
             </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer> 
             </script>
-        </div>
+              
+        
 
 </asp:Content>
 
