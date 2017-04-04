@@ -71,7 +71,7 @@
                 <img src="images/facebook.png" alt="Facebook" width="25" height="25" />
             </a>
             
-            <a href="~/contact.aspx" runat="server">
+            <a href="~/map.aspx" runat="server">
                 <img src="images/location.png" alt="Address" width="25" height="25" /> 
             </a>
             
