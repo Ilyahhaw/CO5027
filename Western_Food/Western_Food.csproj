@@ -69,6 +69,8 @@
     <Content Include="css\js-image-slider.css" />
     <Content Include="css\tooltip.css" />
     <Content Include="dineinortakeaway.aspx" />
+    <Content Include="images\background1.jpg" />
+    <Content Include="images\background2.jpg" />
     <Content Include="images\banner.jpg" />
     <Content Include="images\closeBtn.gif" />
     <Content Include="images\email.png" />
