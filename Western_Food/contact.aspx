@@ -52,10 +52,8 @@
         <p> <img src="images/twitter.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/location.png" width="20" height="20" /> Great Taste Restaurant </p>
-    </div>
-
-    <div id="box">
-        <h3> Direction Map </h3>
+    
+        <div id="box">
 
         <div id="map"></div>        
             <script>
@@ -72,6 +70,10 @@
                   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByeOaZmP3BjUFrkksAMeH-RrEa29C2hDw&callback=initMap">
               </script>
     </div>
+    
+    </div>
+
+    
 
 </asp:Content>
 

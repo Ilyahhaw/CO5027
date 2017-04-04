@@ -73,7 +73,7 @@
 #contactleft {
     background-color:#b9b9b9;
     width:500px;
-    padding:12px;
+    padding:4px;
     margin:2% 0% 5% 0%;
     float:left;
 }
@@ -93,8 +93,8 @@
 #contactright {
     background-color:#b9b9b9;
     width:330px;
-    padding:12px;
-    margin:2% 0% 15% 0%;
+    padding:2px;
+    margin:2% 0% 2% 0%;
     float:right;
 }
 
@@ -104,13 +104,14 @@
 }
 
 #contactright p{
-    font-size:16px;
+    font-size:14px;
     text-align:center;
 }
 
 #box{
-    width:600px;
-    height:600px;
+    position:center;
+    width:325px;
+    height:325px;
     clear:both;
     margin-bottom:12px;
     overflow:hidden;
