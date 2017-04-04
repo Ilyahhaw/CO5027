@@ -11,7 +11,7 @@
         <h1> Send Us a Message </h1>      
 
         <p>
-            <asp:Label ID="lblName" runat="server" Text="Name: "></asp:Label>
+            <asp:label id="lblName" runat="server" text="Name: "></asp:label>
             <asp:TextBox ID="txtName" runat="server" Width="300px" Height="20px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="ReqNameValidator" runat="server" ControlToValidate="txtName" ErrorMessage="*Required"></asp:RequiredFieldValidator>
         </p>
@@ -51,12 +51,15 @@
         <p> <img src="images/facebook.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/twitter.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
+        <p> 
+            <a href="~/map.aspx" runat="server">
+                <img src="images/location.png" width="20" height="20" /> Great Taste Restaurant
+            </a>  
+
+        </p>
 
     </div>
     
-    <br />
-
-   
 
 </asp:Content>
 

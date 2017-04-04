@@ -113,9 +113,9 @@
 }
 
 #box{
-    width:900px;
-    height:700px;
-     clear:both;
+    width:500px;
+    height:500px;
+    clear:both;
 }
 
 #box h3{
@@ -123,6 +123,7 @@
 }
 
 #map {
+    position:center;
     height: 100%;
   }
 
