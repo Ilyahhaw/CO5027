@@ -98,7 +98,7 @@
     background-color:#b9b9b9;
     width:330px;
     padding:12px;
-    margin:2% 0% 5% 0%;
+    margin:2% 0% 15% 0%;
     float:right;
 }
 
@@ -114,7 +114,8 @@
 
 #box{
     width:900px;
-    height:500px;
+    height:700px;
+     clear:both;
 }
 
 #box h3{
