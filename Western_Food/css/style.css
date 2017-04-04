@@ -110,8 +110,10 @@
 
 #box{
     width:500px;
-    height:500px;
+    height:600px;
     clear:both;
+    padding-bottom:12px;
+    margin-bottom:5px;
 }
 
 #box h3{
