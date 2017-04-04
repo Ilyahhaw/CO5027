@@ -80,6 +80,7 @@
     <Content Include="images\instagram.png" />
     <Content Include="images\location.png" />
     <Content Include="images\logo.jpg" />
+    <Content Include="images\logo_openinghours.png" />
     <Content Include="images\phone.png" />
     <Content Include="images\twitter.png" />
     <Content Include="packages.config" />

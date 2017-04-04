@@ -45,6 +45,30 @@
             <asp:Literal ID="literal1" runat="server" Text=" Your email has been successfully sent.. Thankyou for contact us.." Visible="False"></asp:Literal>
         </div>
 
+        <div id="openinghours">
+            <img src="images/logo_openinghours.png" width="200" height="100" />
+
+            <table>
+                <tr>
+                    <td> Monday - Thursday </td>
+                    <td> 8.30am - 10.00pm </td>
+                </tr>
+
+                <tr>
+                    <td> Friday </td>
+                    <td> <p> 8.00am - 12.00pm </p>
+                         <p> 02.30pm - 10.00pm </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Saturday and Sunday </td>
+                    <td> 7.30am - 12.00pm </td>
+                </tr>
+            </table>
+
+        </div>
+
     </div>
 
     <div id="contactright">
