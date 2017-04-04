@@ -3,16 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="Scripts/js-image-slider.js" type="text/javascript"></script>
-
-    <link href="css/tooltip.css" rel="stylesheet" type="text/css" />
-    <script src="Scripts/tooltip.jss" type="text/javascript"></script>
-
-    <script type="text/javascript">
-        imageSlider.thumbnailPreview(function (thumbIndex) { return "<img src='images/penne" + (thumbIndex + 1) + ".jpg' style='width:180px;height:75px;' />"; });
-    </script>
-
 </asp:Content>
 
 

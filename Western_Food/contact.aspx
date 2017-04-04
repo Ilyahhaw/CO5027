@@ -46,7 +46,7 @@
         </div>
 
         <div id="openinghours">
-            <img src="images/logo_openinghours.png" width="200" height="100" />
+            <img src="images/logo_openinghours.png" alt="openinghours" width="200" height="100" />
 
             <table>
                 <tr>
@@ -74,12 +74,12 @@
     <div id="contactright">
         <h1> Get In Touch </h1>
 
-        <p> <img src="images/phone.png" width="20" height="20" /> (+673) 711 8714  </p>
-        <p> <img src="images/email.png" width="20" height="20" /> nhbhaw.3788@gmail.com </p>
-        <p> <img src="images/facebook.png" width="20" height="20" /> Great Taste Restaurant </p>
-        <p> <img src="images/twitter.png" width="20" height="20" /> Great Taste Restaurant </p>
-        <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
-        <p> <img src="images/location.png" width="20" height="20" /> Great Taste Restaurant </p>
+        <p> <img src="images/phone.png" alt="phone" width="20" height="20" /> (+673) 711 8714  </p>
+        <p> <img src="images/email.png" alt="email" width="20" height="20" /> nhbhaw.3788@gmail.com </p>
+        <p> <img src="images/facebook.png" alt="facebook" width="20" height="20" /> Great Taste Restaurant </p>
+        <p> <img src="images/twitter.png" alt="twitter" width="20" height="20" /> Great Taste Restaurant </p>
+        <p> <img src="images/instagram.png" alt="instagram" width="20" height="20" /> Great Taste Restaurant </p>
+        <p> <img src="images/location.png" alt="direction" width="20" height="20" /> Great Taste Restaurant </p>
     
         <div id="box">
 
