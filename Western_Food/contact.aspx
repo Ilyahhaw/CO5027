@@ -53,7 +53,7 @@
         <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> 
             <a href="~/map.aspx" runat="server">
-                <img src="images/location.png" width="20" height="20" /> Great Taste Restaurant
+                <img src="images/location.png" width="20" height="20" /> ~ click here ~
             </a>  
 
         </p>
