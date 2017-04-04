@@ -38,7 +38,7 @@
         </div>
 
         <div id="literal">
-        <asp:Literal ID="literal1" runat="server" Text=" Your email has been successfully sent.. Thankyou for contact us.." Visible="False"></asp:Literal>
+            <asp:Literal ID="literal1" runat="server" Text=" Your email has been successfully sent.. Thankyou for contact us.." Visible="False"></asp:Literal>
         </div>
 
     </div>
@@ -51,7 +51,13 @@
         <p> <img src="images/facebook.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/twitter.png" width="20" height="20" /> Great Taste Restaurant </p>
         <p> <img src="images/instagram.png" width="20" height="20" /> Great Taste Restaurant </p>
-    
+       
+    </div>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
         <div id="map"></div>
             <script>
               var map;
@@ -65,8 +71,6 @@
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDionT7ViIAlQeHLqwntuX0JeOm9A453VUcontent_copy&callback=initMap" 
                 async="async" defer="defer"> 
             </script>
-              
-        
 
 </asp:Content>
 
