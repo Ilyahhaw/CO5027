@@ -92,7 +92,7 @@
 
 #contactright {
     background-color:#b9b9b9;
-    width:330px;
+    width:370px;
     padding:2px;
     margin:2% 0% 2% 0%;
     float:right;
@@ -110,8 +110,8 @@
 
 #box{
     position:center;
-    width:325px;
-    height:325px;
+    width:370px;
+    height:370px;
     clear:both;
     margin-bottom:12px;
     overflow:hidden;
