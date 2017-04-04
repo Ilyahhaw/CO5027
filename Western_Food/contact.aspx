@@ -54,8 +54,6 @@
        
     </div>
 
-    
-
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -70,8 +68,11 @@
                 });
               }
             </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxK-M4Ktb92waAlkzPZ3K9HOtQn_xU4QQY&callback=initMap"
-            async="async" defer="defer"></script>
+            <script async="async" defer="defer" 
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxK-M4Ktb92waAlkzPZ3K9HOtQn_xU4QQY&callback=initMap"
+            ></script>
+
+         
 
 </asp:Content>
 
