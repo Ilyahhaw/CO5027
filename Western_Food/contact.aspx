@@ -62,7 +62,8 @@
                 });
               }
             </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer> 
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDionT7ViIAlQeHLqwntuX0JeOm9A453VUcontent_copy&callback=initMap" 
+                async="async" defer="defer"> 
             </script>
               
         
