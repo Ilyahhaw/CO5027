@@ -109,11 +109,11 @@
 }
 
 #box{
-    width:500px;
+    width:600px;
     height:600px;
     clear:both;
-    padding-bottom:12px;
-    margin-bottom:5px;
+    margin-bottom:12px;
+    overflow:hidden;
 }
 
 #box h3{
@@ -123,6 +123,7 @@
 #map {
     position:center;
     height: 100%;
+    
   }
 
 #homeleft {
