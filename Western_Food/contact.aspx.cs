@@ -23,7 +23,7 @@ namespace Western_Food
             smtpClient.UseDefaultCredentials = false;
 
             System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("nhbhaw.3788@gmail.com", "bibiwahab14");
+                new System.Net.NetworkCredential("c05027@gmail.com", "P@55word1");
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
 
