@@ -86,6 +86,20 @@
 #contactleft p{
     font-size:16px;
     text-align:justify;
+}
+
+#sendemail{
+    float:right;
+    margin-right:63px;
+    margin-top:4px;
+}
+
+#literal{
+    font-style:italic;
+    border-top-style:double;
+    margin-top:45px;
+    margin-bottom:20px;
+    text-align:center;
     
 }
 
