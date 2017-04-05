@@ -167,6 +167,7 @@
     background-image: url('../images/background.jpg');
     width:900px;
     height:inherit;
+    padding-bottom:10px;
 }
 
 #home table{
@@ -210,10 +211,13 @@
 }
 
 #homebottom p{
+    width:400px;
     border-style:double;
     border-color:#808080;
+    margin-left:232px;
     margin-top:5px;
-    margin-bottom:5px;
+    margin-bottom:10px;
     padding:2px;
     text-align:center;
+    font-style:italic;
 }
