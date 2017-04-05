@@ -33,6 +33,19 @@ namespace Western_Food
 
             smtpClient.Send(msg);
 
+            try
+            {
+                smtpClient.Send(msg);
+                literal1.Text =
+                    "<p> Your email has been successfully sent.. Thankyou for contact us..";
+            }
+            
+            catch (Exception ex)
+            {
+                //display the full error to the user
+                literal1.Text =
+                    "<p> Send Failed : " + ex.Message + "!" + ex.InnerException + "</p>";
+            }
         }
             
        
