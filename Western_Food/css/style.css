@@ -166,19 +166,54 @@
 #home {
     background-image: url('../images/background.jpg');
     width:900px;
-    height:auto;
+    height:inherit;
 }
 
-#hometop a{
+#home table{
+    margin:15px 15px 15px 15px;
+}
+
+#hometop tr td{
     border-style:double;
-    border-bottom-color:#808080;
+    border-color:#808080;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
     padding:2px;
+    position:center;
     text-align:center;
 }
 
-#homebottom a{
+#hometop p{
+    width:400px;
     border-style:double;
-    border-bottom-color:#808080;
+    border-color:#808080;
+    margin-left:232px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:2px;
+    text-align:center;
+    font-style:italic;
+}
+
+#homebottom tr td{
+    border-style:double;
+    border-color:#808080;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:2px;
+    position:center;
+    text-align:center;
+}
+
+#homebottom p{
+    border-style:double;
+    border-color:#808080;
+    margin-top:5px;
+    margin-bottom:5px;
     padding:2px;
     text-align:center;
 }
