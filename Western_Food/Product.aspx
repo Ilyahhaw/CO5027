@@ -1,14 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="product.aspx.cs" Inherits="Western_Food.Product" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="product.aspx.cs" Inherits="Western_Food.product" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
-
-    <title> PRODUCT </title>
 
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-        <div id="product">
+    <div id="product">
 
             <div id="productleft">
 
@@ -27,8 +24,10 @@
 
             </div>
 
-        </div>         
+     </div> 
 
 </asp:Content>
-
-
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+</asp:Content>

@@ -11,7 +11,7 @@ namespace Western_Food
 {
 
 
-    public partial class product
+    public partial class cart
     {
     }
 }
