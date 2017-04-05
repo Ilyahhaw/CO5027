@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="cart.aspx" />
     <Content Include="groceries.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="images\background.jpg" />
     <Content Include="images\email.png" />
@@ -134,6 +135,13 @@
     </Compile>
     <Compile Include="groceries.aspx.designer.cs">
       <DependentUpon>groceries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="menu.aspx.cs">
       <DependentUpon>menu.aspx</DependentUpon>

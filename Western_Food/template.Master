@@ -22,12 +22,12 @@
 
         <div id="menus"> 
               <ul>   
-                <li> <a href="~/default.aspx" runat="server"> HOME </a> </li>
-                <li> <a href="~/product.aspx" runat="server"> PRODUCT </a> </li>
-                <li> <a href="~/contact.aspx" runat="server"> CONTACT US </a> </li>
+                <li> <a href="~/default.aspx" runat="server"> HOME   | </a> </li>
+                <li> <a href="~/product.aspx" runat="server"> PRODUCT   | </a> </li>
+                <li> <a href="~/contact.aspx" runat="server"> CONTACT US   | </a> </li>
                 
                 <li> <a href="~/cart.aspx" runat="server"> CART
-                        <img src="images/shoppingcart.png" alt="cart" width="30" height="30"/> 
+                        <img src="images/shoppingcart.png" alt="cart" width="30" height="30"/>   | 
                      </a> </li>
 
                 <li> <a href="~/login.aspx" runat="server"> LOGIN / SIGN UP </a> </li>
