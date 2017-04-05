@@ -66,13 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\js-image-slider.css" />
-    <Content Include="css\tooltip.css" />
     <Content Include="dineinortakeaway.aspx" />
-    <Content Include="images\background1.jpg" />
-    <Content Include="images\background2.jpg" />
-    <Content Include="images\banner.jpg" />
-    <Content Include="images\closeBtn.gif" />
+    <Content Include="images\background.jpg" />
     <Content Include="images\email.png" />
     <Content Include="images\facebook.png" />
     <Content Include="images\homepage_dinein.jpg" />
@@ -91,8 +86,6 @@
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
-    <Content Include="Scripts\js-image-slider.js" />
-    <Content Include="Scripts\tooltip.js" />
     <Content Include="template.Master" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
