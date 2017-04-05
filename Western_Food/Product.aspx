@@ -17,31 +17,28 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
-    <div class="div1">
-        <h2> Pasta </h2> 
+    
+        <div id="product">
+
+            <div id="productleft">
+
+                <a href="~/dineinortakeaway.aspx" runat="server"> 
+                    <img src="images/homepage_dinein.jpg" alt="dine-in or takeaway" width="420" height="250"  />
+                </a> 
+
+            </div>
+
+
+            <div id="productright">
         
-    </div>
+                <a href="~/Product.aspx" runat="server"> 
+                    <img src="images/homepage_ingredient.jpg" alt="pasta and sauce" width="420" height="250" />
+                </a> 
 
-    <div id="sliderFrame">
+            </div>
 
-        <div id="slider">
-            <a href="http://www.menu"> 
-                <img src="images/penne.jpg" alt="Penne" />
-             </a> 
+        </div>         
 
-                <img src="images/plinguine.jpg" alt="Linguine" />
-                <img src="images/porecchiette.jpg" alt="orecchiette" />
-                <img src="images/porzo.jpg" alt="orzo" />
-                <img src="images/ppappardelle.jpg" alt="pappardelle" />
-                <img src="images/prigatoni.jpg" alt="rigatoni" />
-                <img src="images/protinifusilli.jpg" alt="rotini/fusilli" />
-                <img src="images/pshells.jpg" alt="shells" />
-                <img src="images/pspaghetti.jpg" alt="spaghetti" />
-                <img src="images/pziti.jpg" alt="ziti" />
-        </div>
-
-    </div>
 </asp:Content>
 
 
