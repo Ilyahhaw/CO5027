@@ -28,6 +28,7 @@
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
+
 }
 
 #menus ul li {
@@ -47,6 +48,12 @@
 #menus ul li a:hover {
         color: #CBBF97;
     }
+
+#menu .img{
+    margin-left:100px;
+    padding-left:20px;
+    border:5px;
+}
    
 
 #footer {
