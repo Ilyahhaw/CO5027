@@ -16,23 +16,24 @@
 
 <body>
     <div id="header"> 
-                   
-        </div>
+                  
+            <img src="images/logo.jpg" alt="Logo" width="150" height="150" />
+
 
         <div id="menus"> 
               <ul>   
-                <li class="img"> <img src="images/logo.jpg" alt="Logo" width="100" height="100" /> </li>   
-
-            
                 <li> <a href="~/default.aspx" runat="server"> HOME </a> </li>
-                <li> <a href="~/about.aspx" runat="server"> ABOUT US </a> </li>
                 <li> <a href="~/product.aspx" runat="server"> PRODUCT </a> </li>
                 <li> <a href="~/contact.aspx" runat="server"> CONTACT US </a> </li>
-                <li> <a href="~/cart.aspx" runat="server"> CART </a> </li>
+                
+                  <li> <a href="~/cart.aspx" runat="server"> CART
+                        <img src="images/shoppingcart.png" alt="cart" width="30" height="30"/> 
+                     </a> </li>
             </ul>
         </div>
             
-    
+    </div>
+
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

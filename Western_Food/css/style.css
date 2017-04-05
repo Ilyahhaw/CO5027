@@ -17,6 +17,8 @@
 }
 
 #menus {
+    width:720px;
+    float:right;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color:#806543 ;
@@ -38,8 +40,8 @@
 #menus ul li a {
 	cursor:pointer;
 	text-decoration: none;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding: 1px 1px;
 	color: #ffffff;
 	background-color: none;
@@ -49,9 +51,11 @@
         color: #CBBF97;
     }
 
-#menu .img{
-    margin-left:100px;
-    padding-left:20px;
+#header{
+    width:890px;
+    margin:20px;
+    float:left;
+    margin-left:5px;
     border:5px;
 }
    
