@@ -66,7 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dineinortakeaway.aspx" />
+    <Content Include="menu.aspx" />
     <Content Include="images\background.jpg" />
     <Content Include="images\email.png" />
     <Content Include="images\facebook.png" />
@@ -100,7 +100,7 @@
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Product.aspx" />
+    <Content Include="product.aspx" />
     <Content Include="css\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -119,22 +119,22 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="dineinortakeaway.aspx.cs">
-      <DependentUpon>dineinortakeaway.aspx</DependentUpon>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="dineinortakeaway.aspx.designer.cs">
-      <DependentUpon>dineinortakeaway.aspx</DependentUpon>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Product.aspx.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
+    <Compile Include="product.aspx.cs">
+      <DependentUpon>product.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Product.aspx.designer.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
+    <Compile Include="product.aspx.designer.cs">
+      <DependentUpon>product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="template.Master.cs">

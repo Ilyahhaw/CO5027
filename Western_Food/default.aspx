@@ -14,18 +14,31 @@
 
            <table>
                <tr>
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images/homepage_dinein.jpg" alt="Menu" width="420" height="250"  />
+                       </a> 
+                   </td>
+
+
+                   
+               </tr>
+            </table>
+
+            <a href="~/dineinortakeaway.aspx" runat="server"> -click here for more- </a>
+
+       </div>
+
+        <div id="homebottom">
+
+            <table>
+               <tr>
                    <td>  </td>
                    <td>  </td>
                    <td>  </td>
                    <td>  </td> 
                </tr>
             </table>
-
-            <p> -click here for more- </p>
-
-       </div>
-
-        <div id="homebottom">
 
            <p> -click here for more- </p>
 

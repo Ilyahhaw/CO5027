@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Western_Food
 {
-    public partial class Product : System.Web.UI.Page
+    public partial class product : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

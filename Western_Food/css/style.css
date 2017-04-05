@@ -162,3 +162,23 @@
     margin:10px;
     padding:2px;
 }
+
+#home {
+    background-image: url('../images/background.jpg');
+    width:900px;
+    height:auto;
+}
+
+#hometop a{
+    border-style:double;
+    border-bottom-color:#808080;
+    padding:2px;
+    text-align:center;
+}
+
+#homebottom a{
+    border-style:double;
+    border-bottom-color:#808080;
+    padding:2px;
+    text-align:center;
+}
