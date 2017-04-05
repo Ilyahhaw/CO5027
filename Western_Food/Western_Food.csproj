@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="groceries.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="images\background.jpg" />
     <Content Include="images\email.png" />
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="groceries.aspx.cs">
+      <DependentUpon>groceries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="groceries.aspx.designer.cs">
+      <DependentUpon>groceries.aspx</DependentUpon>
     </Compile>
     <Compile Include="menu.aspx.cs">
       <DependentUpon>menu.aspx</DependentUpon>

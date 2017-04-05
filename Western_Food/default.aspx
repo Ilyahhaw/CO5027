@@ -16,16 +16,32 @@
                <tr>
                    <td> 
                        <a href="~/.aspx" runat="server"> 
-                       <img src="images/homepage_dinein.jpg" alt="Menu" width="420" height="250"  />
+                       <img src="images" alt="Menu" width="220" height="170"  />
                        </a> 
                    </td>
 
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
 
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
+
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
                    
                </tr>
             </table>
 
-            <a href="~/dineinortakeaway.aspx" runat="server"> -click here for more- </a>
+            <a href="~/menu.aspx" runat="server"> -click here for more- </a>
 
        </div>
 
@@ -33,14 +49,33 @@
 
             <table>
                <tr>
-                   <td>  </td>
-                   <td>  </td>
-                   <td>  </td>
-                   <td>  </td> 
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
+                   
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
+                   
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td>
+                   
+                   <td> 
+                       <a href="~/.aspx" runat="server"> 
+                       <img src="images" alt="Menu" width="220" height="170"  />
+                       </a> 
+                   </td> 
                </tr>
             </table>
 
-           <p> -click here for more- </p>
+           <a href="~/groceries.aspx" runat="server"> -click here for more- </a>
 
        </div>
 
