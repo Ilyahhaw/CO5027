@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="cart.aspx" />
     <Content Include="groceries.aspx" />
+    <Content Include="images\chefrecommends.jpg" />
     <Content Include="login.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="images\background.jpg" />

@@ -12,28 +12,32 @@
 
        <div id="hometop">
 
+           <div id="chef">
+               <p> Menu <img src="images/chefrecommends.jpg" alt="Menu" width="200" height="100"  /> </p>
+           </div>
+
            <table>
                <tr>
                    <td> 
-                       <a href="~/.aspx" runat="server"> 
+                       <a href="~/menu.aspx" runat="server"> 
+                       
+                       </a> 
+                   </td>
+
+                   <td> 
+                       <a href="~/menu.aspx" runat="server"> 
                        <img src="images" alt="Menu" width="200" height="170"  />
                        </a> 
                    </td>
 
                    <td> 
-                       <a href="~/.aspx" runat="server"> 
+                       <a href="~/menu.aspx" runat="server"> 
                        <img src="images" alt="Menu" width="200" height="170"  />
                        </a> 
                    </td>
 
                    <td> 
-                       <a href="~/.aspx" runat="server"> 
-                       <img src="images" alt="Menu" width="200" height="170"  />
-                       </a> 
-                   </td>
-
-                   <td> 
-                       <a href="~/.aspx" runat="server"> 
+                       <a href="~/menu.aspx" runat="server"> 
                        <img src="images" alt="Menu" width="200" height="170"  />
                        </a> 
                    </td>
