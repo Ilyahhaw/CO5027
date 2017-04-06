@@ -69,6 +69,14 @@
     <Content Include="cart.aspx" />
     <Content Include="groceries.aspx" />
     <Content Include="images\chefrecommends.jpg" />
+    <Content Include="images\dine_jumboshellswithtomatocreamysauce.jpg" />
+    <Content Include="images\dine_lasagna.png" />
+    <Content Include="images\dine_salmonmacoronisalad.jpg" />
+    <Content Include="images\dine_spaghettibolognese.jpg" />
+    <Content Include="images\pasta_elbows.jpg" />
+    <Content Include="images\pasta_spaghetti.jpg" />
+    <Content Include="images\s_garlicherb.png" />
+    <Content Include="images\s_traditional.png" />
     <Content Include="login.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="images\background.jpg" />
