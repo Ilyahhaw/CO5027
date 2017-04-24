@@ -37,7 +37,7 @@ namespace Western_Food
             {
                 smtpClient.Send(msg);
                 litResult.Text =
-                    "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+                    "<p>Success, your message has been send.. Thankyou for contact us..</p>";
             }
             catch (Exception ex)
             {

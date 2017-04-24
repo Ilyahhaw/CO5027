@@ -7,6 +7,28 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
+    <div id="openinghours">
+           
+            <table>
+                <tr>
+                    <td></td>
+                    <td> Monday - Thursday </td>
+                    <td> Friday </td>
+                    <td> Saturday and Sunday </td>
+                </tr>
+
+                <tr>
+                    <td> <img src="images/logo_openinghours.png" alt="openinghours" width="200" height="90" /> </td>
+                    <td> 8.30am - 10.00pm </td>
+                    <td> <p> 8.00am - 12.00pm </p>
+                         <p> 02.30pm - 10.00pm </p>
+                    </td>
+                    <td> 7.30am - 12.00pm </td>
+                </tr>
+            </table>
+
+       </div>
+
     <div id="contactleft">
         <h1> Send Us a Message </h1>    
         
@@ -50,41 +72,13 @@
         </div>
 
             
-
-        <div id="openinghours">
-            <img src="images/logo_openinghours.png" alt="openinghours" width="200" height="100" />
-
-            <table>
-                <tr>
-                    <td> Monday - Thursday </td>
-                    <td> 8.30am - 10.00pm </td>
-                </tr>
-
-                <tr>
-                    <td> Friday </td>
-                    <td> <p> 8.00am - 12.00pm </p>
-                         <p> 02.30pm - 10.00pm </p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td> Saturday and Sunday </td>
-                    <td> 7.30am - 12.00pm </td>
-                </tr>
-            </table>
-
-            </div>
         </div>
     </div>
 
     <div id="contactright">
         <h1> Get In Touch </h1>
 
-        <p> <img src="images/phone.png" alt="phone" width="20" height="20" /> (+673) 711 8714  </p>
-        <p> <img src="images/email.png" alt="email" width="20" height="20" /> nhbhaw.3788@gmail.com </p>
-        <p> <img src="images/facebook.png" alt="facebook" width="20" height="20" /> Great Taste Restaurant </p>
-        <p> <img src="images/twitter.png" alt="twitter" width="20" height="20" /> Great Taste Restaurant </p>
-        <p> <img src="images/instagram.png" alt="instagram" width="20" height="20" /> Great Taste Restaurant </p>
+            
         <p> <img src="images/location.png" alt="direction" width="20" height="20" /> Great Taste Restaurant </p>
     
         <div id="box">
@@ -95,7 +89,7 @@
                   var map;
                   function initMap() {
                     map = new google.maps.Map(document.getElementById('map'), {
-                        center: { lat: 4.90559, lng: 114.917015 },
+                        center: { lat: 4.885731, lng: 114.931669 },
                       zoom: 8
                     });
                   }

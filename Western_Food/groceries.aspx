@@ -42,7 +42,7 @@
         </table>    
     </div>
 
-    <div id="Sauce">
+    <div id="sauce">
         
         <h2> Hunts Sauce </h2>
            

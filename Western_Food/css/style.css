@@ -155,12 +155,21 @@
 }
 
 #openinghours{
-    margin-left:120px;
+    margin-left:25px;
+}
+
+#openinghours table{
+    border-bottom-style:dotted;
+    border-bottom-width:3px;
+    border-color:#808080;
 }
 
 #openinghours tr td{
+    text-align:center;
+    font-style:oblique;
     margin:10px;
-    padding:2px;
+    padding-left:30px;
+    padding-right:30px;
 }
 
 #home {
@@ -251,7 +260,6 @@
 #Register {
     width:430px;
     padding:5px;
-    border-left-style:double;
     margin:2% 0% 2% 0%;
     float:right;
 }
@@ -329,4 +337,27 @@
     padding: 10px;
     position: center;
     text-align: center;
+}
+
+#pastas tr td {
+    background: #ffffff;
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
+}
+
+#sauce tr td {
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
 }
