@@ -10,42 +10,46 @@
 
     <div id="home">
 
+        <div id="chef">
+            <img src="images/chefrecommends.jpg" alt="Menu" width="365" height="95"  />  
+        </div>
+
        <div id="hometop">
 
-           <div id="chef">
-               <p> <img src="images/chefrecommends.jpg" alt="Menu" width="350" height="100"  /> </p>
-           </div>
-
            <table>
-               <tr> 
+               <tr>
                    <td> 
                        <a href="~/menu.aspx" runat="server"> 
-                            <img src="images/dine_spaghettibolognese.jpg" alt="Spaghetti Bolognese" width="200" height="170" />
+                            <img src="images/dine_spaghettibolognese.jpg" alt="Spaghetti Bolognese" width="120" height="120" />
                        </a> 
                    </td>
 
                    <td> 
                        <a href="~/menu.aspx" runat="server"> 
-                       <img src="images/dine_lasagna.png" alt="Lasagna" width="200" height="170"  />
+                       <img src="images/dine_lasagna.png" alt="Lasagna" width="120" height="120"  />
                        </a> 
                    </td>
 
                    <td> 
                        <a href="~/menu.aspx" runat="server"> 
-                       <img src="images/dine_jumboshellswithtomatocreamysauce.jpg" alt="Jumbo Shell with Tomato Creamy Sauce" width="200" height="170" />
+                       <img src="images/dine_jumboshellswithtomatocreamysauce.jpg" alt="Jumbo Shell with Tomato Creamy Sauce" width="120" height="120"  />
                        </a> 
                    </td>
 
                    <td> 
                        <a href="~/menu.aspx" runat="server"> 
-                       <img src="images/dine_salmonmacoronisalad.jpg" alt="Salmon Macoroni Salad" width="200" height="170"  />
+                       <img src="images/dine_salmonmacoronisalad.jpg" alt="Salmon Macoroni Salad" width="120" height="120"   />
                        </a> 
+                   </td>
+
+                   <td> 
+                        <div id="clickformore">
+                            <a href="~/menu.aspx" runat="server"> -click here for more- </a>
+                        </div>
                    </td>
                    
                </tr>
             </table>
-
-           <p> <a href="~/menu.aspx" runat="server"> -click here for more- </a> </p>
 
        </div>
 
@@ -55,31 +59,35 @@
                <tr>
                    <td> 
                        <a href="~/groceries.aspx" runat="server"> 
-                       <img src="images/pasta_spaghetti.jpg" alt="Pasta Speghetti" width="200" height="170" />
+                       <img src="images/pasta_spaghetti.jpg" alt="Pasta Speghetti" width="120" height="120"  />
                        </a> 
                    </td>
                    
                    <td> 
                        <a href="~/groceries.aspx" runat="server"> 
-                       <img src="images/pasta_elbows.jpg" alt="Pasta Elbow" width="200" height="170" />
+                       <img src="images/pasta_elbows.jpg" alt="Pasta Elbow" width="120" height="120"  />
                        </a> 
                    </td>
                    
                    <td> 
                        <a href="~/groceries.aspx" runat="server"> 
-                       <img src="images/s_traditional.png" alt="Traditional Sauce" width="200" height="170" />
+                       <img src="images/s_traditional.png" alt="Traditional Sauce" width="120" height="120"  />
                        </a> 
                    </td>
                    
                    <td> 
                        <a href="~/groceries.aspx" runat="server"> 
-                       <img src="images/s_garlicherb.png" alt="Garlic Herb Sauce" width="200" height="170" />
+                       <img src="images/s_garlicherb.png" alt="Garlic Herb Sauce" width="120" height="120"  />
                        </a> 
+                   </td> 
+
+                   <td> 
+                       <div id="clickhereformore"> 
+                            <a href="~/groceries.aspx" runat="server"> -click here for more- </a> 
+                       </div>
                    </td> 
                </tr>
             </table>
-
-           <p> <a href="~/groceries.aspx" runat="server"> -click here for more- </a> </p>
 
        </div>
 

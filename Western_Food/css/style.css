@@ -170,6 +170,14 @@
     padding-bottom:10px;
 }
 
+#chef {
+    padding-left:25px;
+}
+
+#clickformore {
+    width:230px;
+}
+
 #home table{
     margin:15px 15px 15px 15px;
 }
@@ -177,11 +185,11 @@
 #hometop tr td{
     border-style:double;
     border-color:#808080;
-    margin-top:5px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:5px;
-    padding:2px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px;
     position:center;
     text-align:center;
 }
@@ -203,11 +211,11 @@
 #homebottom tr td{
     border-style:double;
     border-color:#808080;
-    margin-top:5px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:5px;
-    padding:2px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px;
     position:center;
     text-align:center;
 }
@@ -224,26 +232,69 @@
     font-style:italic;
 }
 
-#login {
-    width:500px;
-    padding:4px;
-    margin:2% 0% 5% 0%;
-    float:left;
+#clickhereformore {
+    width:230px;
 }
 
-#login h1{
+#Login {
+    width:430px;
+    padding:5px;
+    border-right-style:double;
+    margin:2% 0% 2% 0%;
+    float:left;
+    height: 174px;
+}
+
+#Login h1{
     text-align:center;
     margin-top:4px;
 }
 
-#register {
-    width:500px;
-    padding:4px;
-    margin:2% 0% 5% 0%;
+#Login tr td{
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:2px;
+    position:center;
+    text-align:center;
+}
+
+#BtnLogin{
+    width:75px;
+    margin-top:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-left:140px;
+}
+
+#Register {
+    width:430px;
+    padding:5px;
+    border-left-style:double;
+    margin:2% 0% 2% 0%;
     float:right;
 }
 
-#register h1{
+#Register h1{
     text-align:center;
     margin-top:4px;
+}
+
+#Register tr td{
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:2px;
+    position:center;
+    text-align:center;
+}
+
+#BtnRegister{
+    width:75px;
+    margin-top:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-left:148px;
 }

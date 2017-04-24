@@ -13,6 +13,15 @@ namespace Western_Food {
     public partial class contact {
         
         /// <summary>
+        /// lblName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblName;
+        
+        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
@@ -22,13 +31,22 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.TextBox txtName;
         
         /// <summary>
-        /// reqNameValidator control.
+        /// RequiredFieldValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqNameValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        
+        /// <summary>
+        /// lblEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
         /// txtEmail control.
@@ -49,13 +67,22 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqFieldEmail;
         
         /// <summary>
-        /// RegExprChkEMail control.
+        /// RegEmailExValid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExprChkEMail;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegEmailExValid;
+        
+        /// <summary>
+        /// lblSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSubject;
         
         /// <summary>
         /// txtSubject control.
@@ -67,6 +94,15 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+        
+        /// <summary>
         /// txtMessage control.
         /// </summary>
         /// <remarks>
@@ -76,13 +112,13 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.TextBox txtMessage;
         
         /// <summary>
-        /// ReqMessageValidator control.
+        /// ReqMsgValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqMessageValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqMsgValidator;
         
         /// <summary>
         /// btnSendEmail control.
