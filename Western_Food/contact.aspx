@@ -31,7 +31,7 @@
 
             <tr>
                 <td> <asp:Label ID="lblMessage" runat="server" Text="Message: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtMsg" runat="server" Height="140px" Width="345px" AutoPostBack="True" TextMode="MultiLine"></asp:TextBox> </td>
+                <td> <asp:TextBox ID="txtMsg" runat="server" Height="140px" Width="345px" TextMode="MultiLine"></asp:TextBox> </td>
                 <td> <asp:RequiredFieldValidator ID="ReqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="CANNOT be blank"></asp:RequiredFieldValidator> </td>
             </tr>
 
