@@ -31,13 +31,13 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.TextBox txtpasswordLogin;
         
         /// <summary>
-        /// BtnLogin control.
+        /// btnLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnLogin;
+        protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
         /// txtUserRegister control.
@@ -67,12 +67,12 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.TextBox txtConfirmedpassword;
         
         /// <summary>
-        /// BtnRegister control.
+        /// btnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnRegister;
+        protected global::System.Web.UI.WebControls.Button btnRegister;
     }
 }
