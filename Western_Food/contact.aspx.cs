@@ -23,11 +23,11 @@ namespace Western_Food
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
             System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("c05027lcb@gmail.com", "P@55word1");
+                new System.Net.NetworkCredential("nhbhaw.3788@gmail.com", "Sirah128");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
+            MailMessage msg = new MailMessage("nhbhaw.3788@gmail.com", txtEmail.Text);
             msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text;
             msg.Body = txtMessage.Text;
 
