@@ -10,38 +10,25 @@
     <div id="contactleft"> 
         <h1> Send Us a Message </h1>    
         
-        <table>
+        <div id ="sendmessage">
+            <p> Name:  <asp:TextBox ID="txtName" runat="server"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="reqNameValidator" runat="server" ErrorMessage="Name is Reqired" ControlToValidate="txtName"></asp:RequiredFieldValidator>
+            </p>
 
-            <tr> 
-                <td> <asp:label id="lblName" runat="server" text="Name: "></asp:label> </td>
-                <td> <asp:TextBox ID="txtName" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
-                <td> <asp:RequiredFieldValidator ID="ReqNameValidator" runat="server" ControlToValidate="txtName" ErrorMessage="*Required"></asp:RequiredFieldValidator> </td>
-            </tr>
+            <p> Email: <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="reqFieldEmail" runat="server" ErrorMessage="Email is Required" ControlToValidate="txtEmail"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegExprChkEMail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            </p>
 
-            <tr>
-                <td> <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtEmail" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
-                <td> <asp:RegularExpressionValidator ID="RegEmailExValid" runat="server" ErrorMessage="Invaild Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail"></asp:RegularExpressionValidator> </td>
-            </tr>
+            <p> Subject: <asp:TextBox ID="txtSubject" runat="server"></asp:TextBox> </p>
 
-            <tr>
-                <td> <asp:Label ID="lblSubject" runat="server" Text="Subject: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtSubject" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
-            </tr>
+            <p> Message: <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="ReqMessageValidator" runat="server" ControlToValidate="txtMessage" ErrorMessage="Message cannot be blank"></asp:RequiredFieldValidator>
+            </p>
 
-            <tr>
-                <td> <asp:Label ID="lblMessage" runat="server" Text="Message: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtMsg" runat="server" Height="140px" Width="345px" TextMode="MultiLine"></asp:TextBox> </td>
-                <td> <asp:RequiredFieldValidator ID="ReqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="CANNOT be blank"></asp:RequiredFieldValidator> </td>
-            </tr>
+            <asp:Button ID="btnSendEmail" runat="server" Text="Send Message" OnClick="btnSendEmail_Click" />
+            <br/>
 
-        </table>  
-
-        <div id="sendemail"> 
-            <asp:Button ID="btnSendEmail" runat="server" Text="Send Message " OnClick="btnSendEmail_Click" />
-        </div>
-
-        <div id="literal">
             <asp:Literal ID="litResult" runat="server"></asp:Literal>
         </div>
 

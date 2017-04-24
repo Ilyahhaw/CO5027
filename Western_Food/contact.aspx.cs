@@ -29,7 +29,8 @@ namespace Western_Food
 
             MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
             msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text;
-            msg.Body = txtMsg.Text;
+            msg.Body = txtMessage.Text;
+
             smtpClient.Send(msg);
 
             try
