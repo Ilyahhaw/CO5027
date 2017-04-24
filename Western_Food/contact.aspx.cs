@@ -15,7 +15,7 @@ namespace Western_Food
 
         }
 
-        protected void BtnSendEmail_Click(object sender, EventArgs e)
+        protected void btnSendEmail_Click(object sender, EventArgs e)
         {
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
@@ -28,7 +28,7 @@ namespace Western_Food
             smtpClient.Credentials = credentials;
 
             MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
-            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubj.Text;
+            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text;
             msg.Body = txtMsg.Text;
             smtpClient.Send(msg);
 
@@ -36,7 +36,7 @@ namespace Western_Food
             {
                 smtpClient.Send(msg);
                 litResult.Text =
-                    "<p>Your email has been successfully sent.. Thankyou for contact us..</p>";
+                    "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
             }
             catch (Exception ex)
             {
@@ -45,6 +45,5 @@ namespace Western_Food
                     "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
             }
         }
-
     }
 }

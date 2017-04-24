@@ -67,22 +67,22 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegEmailExValid;
         
         /// <summary>
-        /// lblSubj control.
+        /// lblSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSubj;
+        protected global::System.Web.UI.WebControls.Label lblSubject;
         
         /// <summary>
-        /// txtSubj control.
+        /// txtSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSubj;
+        protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
         /// lblMessage control.

@@ -25,8 +25,8 @@
             </tr>
 
             <tr>
-                <td> <asp:Label ID="lblSubj" runat="server" Text="Subject: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtSubj" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
+                <td> <asp:Label ID="lblSubject" runat="server" Text="Subject: "></asp:Label> </td>
+                <td> <asp:TextBox ID="txtSubject" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
             </tr>
 
             <tr>
@@ -38,7 +38,7 @@
         </table>  
 
         <div id="sendemail"> 
-            <asp:Button ID="btnSendEmail" runat="server" Text="Send Message" OnClick="BtnSendEmail_Click" />
+            <asp:Button ID="btnSendEmail" runat="server" Text="Send Message " OnClick="btnSendEmail_Click" />
         </div>
 
         <div id="literal">
