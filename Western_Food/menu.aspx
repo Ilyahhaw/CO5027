@@ -54,10 +54,10 @@
            
         <table>
              <tr>
-                <td> <img src="images/ff_original.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/fries_onionring.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/fries_sweetpotato.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/fries_wedges.jpg" alt="" width="150" height="150" title="" /> </td>
+                <td> <img src="images/ff_original.jpg" alt="French Fries" width="150" height="150" title="French Fries" /> </td>
+                <td> <img src="images/fries_onionring.jpg" alt="Onion Ring" width="150" height="150" title="Onion Ring" /> </td>
+                <td> <img src="images/fries_sweetpotato.jpg" alt="Sweet Potato" width="150" height="150" title="Sweet Potato" /> </td>
+                <td> <img src="images/fries_wedges.jpg" alt="Wedges" width="150" height="150" title="Wedges" /> </td>
             </tr>
         </table>
 
@@ -65,19 +65,17 @@
 
         <table>
             
-            
-            
             <tr> 
-                <td> <img src="images/ff_friessalad.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/ff_frieswithchickegrilled.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/ff_frieswithfish.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/ff_frieswithlamb.jpg" alt="" width="150" height="150" title="" /> </td>
+                <td> <img src="images/ff_friessalad.jpg" alt="Fries Salad" width="150" height="150" title="Fries Salad" /> </td>
+                <td> <img src="images/ff_frieswithchickegrilled.jpg" alt="Fries with Chickem Grilled" width="150" height="150" title="Fries with Chickem Grilled" /> </td>
+                <td> <img src="images/ff_frieswithfish.jpg" alt="Fries with Fish" width="150" height="150" title="Fries with Fish" /> </td>
+                <td> <img src="images/ff_frieswithlamb.jpg" alt="Fries with Lamb" width="150" height="150" title="Fries with Lamb" /> </td>
             </tr>
             
             <tr>
-                <td> <img src="images/ff_frieswithminiburger.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/ff_frieswithsausage.jpg" alt="" width="150" height="150" title="" /> </td>
-                <td> <img src="images/ff_frieswithsausage1.jpg" alt="" width="150" height="150" title="" /> </td>
+                <td> <img src="images/ff_frieswithminiburger.jpg" alt="Fries with MiniBurger" width="150" height="150" title="Fries with MiniBurger" /> </td>
+                <td> <img src="images/ff_frieswithsausage.jpg" alt="Fries with Sausage Slice" width="150" height="150" title="Fries with Sausage Slice" /> </td>
+                <td> <img src="images/ff_frieswithsausage1.jpg" alt="Fries with Sausage" width="150" height="150" title="Fries with Sausage" /> </td>
             </tr>
 
          </table>
@@ -91,15 +89,12 @@
         <table>
             
             <tr>
-                <td> <img src="images/bev_cola.jpg" alt="" width="120" height="175" title="" /> </td>
-                <td> <img src="images/bev_pepsi.jpg" alt="" width="120" height="175" title="" /> </td>
-                <td> <img src="images/bev_100plus.jpg" alt="" width="120" height="175" title="" /> </td>
-            </tr>
-
-            <tr>
-                <td> <img src="images/bev_7up.jpg" alt="" width="120" height="175" title="" /> </td>
-                <td> <img src="images/bev_revive.jpg" alt="" width="120" height="175" title="" /> </td>
-                <td> <img src="images/bev_sprite.jpg" alt="" width="120" height="175" title="" /> </td>
+                <td> <img src="images/bev_cola.jpg" alt="Cola" width="120" height="175" title="Cola" /> </td>
+                <td> <img src="images/bev_pepsi.jpg" alt="Pepsi" width="120" height="175" title="Pepsi" /> </td>
+                <td> <img src="images/bev_100plus.jpg" alt="100plus" width="120" height="175" title="100plus" /> </td>
+                <td> <img src="images/bev_7up.jpg" alt="7up" width="120" height="175" title="7up" /> </td>
+                <td> <img src="images/bev_revive.jpg" alt="Revive" width="120" height="175" title="Revive" /> </td>
+                <td> <img src="images/bev_sprite.jpg" alt="Sprite" width="120" height="175" title="Sprite" /> </td>
             </tr>
 
         </table>

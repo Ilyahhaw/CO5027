@@ -278,3 +278,55 @@
     margin-bottom:5px;
     margin-left:100px;
 }
+
+#beverage tr td {
+    background: #ffffff;
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
+    text-align: center;
+}
+
+#beverage tr td {
+    background: #ffffff;
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
+    text-align: center;
+}
+
+#fries tr td {
+    background: #ffffff;
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
+    text-align: center;
+}
+
+#pasta tr td {
+    background: #ffffff;
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: center;
+    text-align: center;
+}
