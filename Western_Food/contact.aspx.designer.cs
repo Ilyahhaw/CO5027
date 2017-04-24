@@ -121,12 +121,12 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.Button btnSendEmail;
         
         /// <summary>
-        /// literal1 control.
+        /// litResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal literal1;
+        protected global::System.Web.UI.WebControls.Literal litResult;
     }
 }

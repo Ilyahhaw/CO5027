@@ -17,18 +17,19 @@ namespace Western_Food
 
         protected void BtnSendEmail_Click(object sender, EventArgs e)
         {
-            SmtpClient smtpClient = new SmtpClient();
 
+            SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
             smtpClient.UseDefaultCredentials = false;
-
-            System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("c05027@gmail.com", "P@55word1");
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
+            System.Net.NetworkCredential credentials =
+                new System.Net.NetworkCredential("c05027lcb@gmail.com", "P@55word1");
 
-            MailMessage msg = new MailMessage("sender@server.com", "recipient@server.co.uk");
-            msg.Subject = "Name: " + txtName.Text + "Subject: " + txtSubj.Text;
+            smtpClient.Credentials = credentials;
+
+            MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
+            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubj.Text;
             msg.Body = txtMsg.Text;
 
             smtpClient.Send(msg);
@@ -36,18 +37,16 @@ namespace Western_Food
             try
             {
                 smtpClient.Send(msg);
-                literal1.Text =
-                    "<p> Your email has been successfully sent.. Thankyou for contact us..";
+                litResult.Text =
+                    "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
             }
-            
             catch (Exception ex)
             {
                 //display the full error to the user
-                literal1.Text =
-                    "<p> Send Failed : " + ex.Message + "!" + ex.InnerException + "</p>";
+                litResult.Text =
+                    "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
             }
-        }
-            
+        }         
        
     }
 }
