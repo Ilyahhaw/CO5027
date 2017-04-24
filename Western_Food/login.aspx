@@ -15,7 +15,7 @@
 
             <tr>
                 <td> Password: </td>
-                <td> <asp:TextBox ID="txtpasswordLogin" runat="server"></asp:TextBox> </td>
+                <td> <asp:TextBox ID="txtpasswordLogin" runat="server" TextMode="Password"></asp:TextBox> </td>
             </tr>
 
         </table>
@@ -35,12 +35,12 @@
 
             <tr>
                 <td> Password: </td>
-                <td> <asp:TextBox ID="txtpasswordRegister" runat="server"></asp:TextBox> </td>
+                <td> <asp:TextBox ID="txtpasswordRegister" runat="server" TextMode="Password"></asp:TextBox> </td>
             </tr>
 
             <tr>
                 <td> Confirmed Password: </td>
-                <td> <asp:TextBox ID="txtConfirmedpassword" runat="server"></asp:TextBox> </td>
+                <td> <asp:TextBox ID="txtConfirmedpassword" runat="server" TextMode="Password"></asp:TextBox> </td>
             </tr>
         </table>
 
