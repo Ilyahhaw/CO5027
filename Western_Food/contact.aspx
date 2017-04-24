@@ -21,7 +21,7 @@
             <tr>
                 <td> <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label> </td>
                 <td> <asp:TextBox ID="txtEmail" runat="server" Width="345px" Height="20px"></asp:TextBox> </td>
-                <td> <asp:RegularExpressionValidator ID="RegEmailExValid" runat="server" ErrorMessage="*Required" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail"></asp:RegularExpressionValidator> </td>
+                <td> <asp:RegularExpressionValidator ID="RegEmailExValid" runat="server" ErrorMessage="Invaild Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail"></asp:RegularExpressionValidator> </td>
             </tr>
 
             <tr>
@@ -31,7 +31,7 @@
 
             <tr>
                 <td> <asp:Label ID="lblMessage" runat="server" Text="Message: "></asp:Label> </td>
-                <td> <asp:TextBox ID="txtMsg" runat="server" Height="150px" Width="345px" AutoPostBack="True" TextMode="MultiLine"></asp:TextBox> </td>
+                <td> <asp:TextBox ID="txtMsg" runat="server" Height="140px" Width="345px" AutoPostBack="True" TextMode="MultiLine"></asp:TextBox> </td>
                 <td> <asp:RequiredFieldValidator ID="ReqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="CANNOT be blank"></asp:RequiredFieldValidator> </td>
             </tr>
 
@@ -42,7 +42,7 @@
         </div>
 
         <div id="literal">
-            <asp:Literal ID="litResult" runat="server" Text=" Your email has been successfully sent.. Thankyou for contact us.." Visible="False"></asp:Literal>
+            <asp:Literal ID="litResult" runat="server"></asp:Literal>
         </div>
 
         <div id="openinghours">

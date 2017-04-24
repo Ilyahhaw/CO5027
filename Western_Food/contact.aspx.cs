@@ -17,7 +17,6 @@ namespace Western_Food
 
         protected void BtnSendEmail_Click(object sender, EventArgs e)
         {
-
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
             smtpClient.UseDefaultCredentials = false;
@@ -31,7 +30,6 @@ namespace Western_Food
             MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
             msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubj.Text;
             msg.Body = txtMsg.Text;
-
             smtpClient.Send(msg);
 
             try
@@ -46,7 +44,7 @@ namespace Western_Food
                 litResult.Text =
                     "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
             }
-        }         
-       
+        }
+
     }
 }
