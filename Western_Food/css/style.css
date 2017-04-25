@@ -175,7 +175,7 @@
 #home {
     background-image: url('../images/background.jpg');
     width:900px;
-    height:inherit;
+    height:auto;
     padding-bottom:10px;
 }
 
@@ -189,7 +189,7 @@
 
 #hometop tr td{
     background:#ffffff;
-    border-style:double;
+    border-style:hidden;
     border-color:#808080;
     margin-top:10px;
     margin-left:10px;

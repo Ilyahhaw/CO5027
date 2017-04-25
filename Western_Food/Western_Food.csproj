@@ -84,6 +84,7 @@
   <ItemGroup>
     <Content Include="cart.aspx" />
     <Content Include="groceries.aspx" />
+    <Content Include="images\background2.jpg" />
     <Content Include="images\bev_100plus.jpg" />
     <Content Include="images\bev_7up.jpg" />
     <Content Include="images\bev_cola.jpg" />

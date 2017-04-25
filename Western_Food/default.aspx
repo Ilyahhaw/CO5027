@@ -10,17 +10,16 @@
 
     <div id="home">
 
-        <div id="chef">
-            <img src="images/chefrecommends.jpg" alt="Menu" width="365" height="95"  />  
-        </div>
-
        <div id="hometop">
 
            <table>
+
                <tr>
                    <td> 
                        <a href="~/menu.aspx" runat="server"> 
-                            <img src="images/dine_spaghettibolognese.jpg" alt="Spaghetti Bolognese" width="120" height="120" />
+                           <img src="images/dine_spaghettibolognese.jpg" alt="Spaghetti Bolognese" width="120" height="120" />
+                           <p> Spaghetti Bolognese </p>
+                           <p> $4.50/portion </p>
                        </a> 
                    </td>
 
