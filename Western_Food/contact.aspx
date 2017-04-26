@@ -71,7 +71,6 @@
             <asp:Literal ID="litResult" runat="server"></asp:Literal>
         </div>
 
-            
         </div>
     </div>
 
@@ -90,7 +89,7 @@
                   function initMap() {
                     map = new google.maps.Map(document.getElementById('map'), {
                         center: { lat: 4.885731, lng: 114.931669 },
-                      zoom: 8
+                      zoom: 20
                     });
                   }
               </script>
