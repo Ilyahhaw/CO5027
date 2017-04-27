@@ -87,10 +87,15 @@
             <script>
                   var map;
                   function initMap() {
-                    map = new google.maps.Map(document.getElementById('map'), {
-                        center: { lat: 4.885731, lng: 114.931669 },
+                      var lcb = { lat: 4.885731, lng: 114.931669 };
+                      map = new google.maps.Map(document.getElementById('map'), {
+                        center: lcb,
                       zoom: 18
-                    });
+                      });
+                      var marker = new google.maps.Marker({
+                          position: lcb,
+                          map : map
+                      })
                   }
               </script>
 
