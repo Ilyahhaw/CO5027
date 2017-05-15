@@ -40,6 +40,15 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
+        /// litLoginResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litLoginResult;
+        
+        /// <summary>
         /// txtUserRegister control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtUserRegister;
+        
+        /// <summary>
+        /// txtEmailRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmailRegister;
         
         /// <summary>
         /// txtpasswordRegister control.
@@ -74,5 +92,14 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnRegister;
+        
+        /// <summary>
+        /// litRegisterResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litRegisterResult;
     }
 }

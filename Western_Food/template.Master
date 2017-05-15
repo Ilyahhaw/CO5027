@@ -43,19 +43,6 @@
             </asp:ContentPlaceHolder>
         </div>
 
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-            <!--this contant will be empty-->
-            </asp:ContentPlaceHolder>
-        </div>
-
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
-            <!--this contant will be empty-->
-            </asp:ContentPlaceHolder>
-        </div>
-
-
     </form>
 
     <div id="footer">  &copy; Great Taste Restaurant by 1525584

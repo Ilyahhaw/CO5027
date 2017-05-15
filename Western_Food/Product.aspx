@@ -7,27 +7,26 @@
     
     <div id="product">
 
-            <div id="productleft">
+        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+            <HeaderTemplate>
+                <ul>
+            </HeaderTemplate>
+            
+            <ItemTemplate>
+                <li> <a href ="<%# Eval("id", "ViewProduct.aspx?Id={0}") %> "> 
+                    <%#Eval ("ProductName") %>" </a> 
 
-                <a href="~/menu.aspx" runat="server"> 
-                    <img src="images/homepage_dinein.jpg" alt="Menu" width="420" height="250"  />
-                </a> 
+                </li>
+            </ItemTemplate>
 
-            </div>
+            <FooterTemplate>
+                </ul>
+            </FooterTemplate>
+        </asp:Repeater> 
 
-
-            <div id="productright">
-        
-                <a href="~/groceries.aspx" runat="server"> 
-                    <img src="images/homepage_ingredient.jpg" alt="Pasta and Sauce" width="420" height="250" />
-                </a> 
-
-            </div>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT * FROM [Product]"></asp:SqlDataSource>
 
      </div> 
 
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-</asp:Content>
+ 

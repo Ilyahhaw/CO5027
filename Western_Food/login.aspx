@@ -21,8 +21,10 @@
 
             <tr>
                 <td> </td>
-                <td> <asp:Button ID="btnLogin" runat="server" Text="Log In" /> </td>
+                <td> <asp:Button ID="btnLogin" runat="server" Text="Log In" OnClick="btnLogin_Click" /> </td>
             </tr>
+
+            <asp:Literal ID="litLoginResult" runat="server"></asp:Literal>
 
         </table>
 
@@ -40,6 +42,11 @@
             </tr>
 
             <tr>
+                <td class="auto-style3"> Email: </td>
+                <td> <asp:TextBox ID="txtEmailRegister" runat="server" Width="255px"></asp:TextBox> </td>
+            </tr>
+
+            <tr>
                 <td class="auto-style3"> Password: </td>
                 <td> <asp:TextBox ID="txtpasswordRegister" runat="server" TextMode="Password" style="margin-left: 1px" Width="255px"></asp:TextBox> </td>
             </tr>
@@ -51,11 +58,11 @@
 
             <tr>
                 <td> </td>
-                <td> <asp:Button ID="btnRegister" runat="server" Text="Register" /> </td>
+                <td> <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" /> </td>
             </tr>
         </table>
 
-        
+        <asp:Literal ID="litRegisterResult" runat="server"></asp:Literal>
 
     </div>
 
