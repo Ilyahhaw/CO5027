@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="Western_Food.login" %>
+﻿<%@ Page Title="Great Taste | Login / Register" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="Western_Food.login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
 
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <div id="login">
+    
+        <asp:Panel id="loginPanel" DefaultButton="btnLogin" Runat="Server">
         <h1> LogIn</h1>
 
         <table>
@@ -23,17 +23,18 @@
             <tr>
                 <td> </td>
                 <td> 
-                    <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" ValidationGroup="one"/>
                 </td>
             </tr>           
 
         </table>   
 
         <asp:Literal ID="litLoginResult" runat="server" ></asp:Literal>
+        
+    </asp:Panel>
 
-    </div>
-
-   <div id="register">
+    
+    <asp:Panel id="registerPanel" DefaultButton="btnRegister" Runat="Server">
         <h1> Register </h1>
 
         <table>
@@ -51,8 +52,7 @@
                      <br />
                      <asp:RegularExpressionValidator ID="RegEmailExValid" runat="server" ErrorMessage="*Invalid Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmailRegister"></asp:RegularExpressionValidator>
                     &nbsp;<asp:RequiredFieldValidator ID="ReqFieldValidatorEmail" runat="server" ErrorMessage="*Required" ControlToValidate="txtEmailRegister"></asp:RequiredFieldValidator>
-                </td>
-                
+                </td>    
             </tr>
 
             <tr>
@@ -73,12 +73,12 @@
 
             <tr>
                 <td> </td>
-                <td> <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" /> </td>
+                <td> <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" ValidationGroup="two"/> </td>
             </tr>
         </table>
 
         <asp:Literal ID="litRegisterResult" runat="server"></asp:Literal>
 
-     </div>
+     </asp:Panel>
 
 </asp:Content>

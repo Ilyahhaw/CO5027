@@ -11,7 +11,18 @@ namespace Western_Food
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string entryIdString = Request.QueryString["ProductID"];
+            int entryId = int.Parse(entryIdString);
+            DatabaseEntities db = new DatabaseEntities();
+            var entry = db.Products.Single(p => p.ProductID == entryId);
 
+            //build the filename
+            string filename = entry.ProductID.ToString() + entry.ImgExt;
+            //set the image control's attributes
+            imageControl.AlternateText = entry.ImgAlt;
+            //imageControl.Width = 300;//(Unit)entry.ImgWidth;
+            //imageControl.Height = 300;//(Unit)entry.ImgHeight;
+            imageControl.ImageUrl = ("UploadedImages/" + filename).Trim();
         }
     }
 }

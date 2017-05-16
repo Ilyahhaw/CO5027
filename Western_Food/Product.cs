@@ -15,10 +15,13 @@ namespace Western_Food
     public partial class Product
     {
         public int ProductID { get; set; }
-        public string PoductName { get; set; }
-        public byte[] ProductImage { get; set; }
-        public Nullable<decimal> Price { get; set; }
-        public Nullable<int> Quantity { get; set; }
+        public string ProductName { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
         public string Description { get; set; }
+        public string ImgAlt { get; set; }
+        public Nullable<int> ImgWidth { get; set; }
+        public Nullable<int> ImgHeight { get; set; }
+        public string ImgExt { get; set; }
     }
 }

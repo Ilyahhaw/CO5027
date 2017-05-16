@@ -18,6 +18,7 @@ namespace Western_Food
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
+            Page.Validate("two");
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             
             //create user store and user manager
@@ -29,15 +30,7 @@ namespace Western_Food
 
             //create user 
             var user = new IdentityUser(){UserName = txtUserRegister.Text, Email = txtEmailRegister.Text };
-            //IdentityResult result = manager.Create(user, txtpasswordRegister.Text);
-            manager.Create(user, txtpasswordRegister.Text);
-
-            var allRoles = roleManager.Roles;
-
-            IdentityRole endUserRole = new IdentityRole("endUser");
-            roleManager.Create(endUserRole);
-            manager.AddToRole(user.Id, "endUser");
-            IdentityResult result = manager.Update(user);
+            IdentityResult result = manager.Create(user, txtpasswordRegister.Text);
 
             if (result.Succeeded)
             {
@@ -52,16 +45,23 @@ namespace Western_Food
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+            Page.Validate("one");
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(txtUserLogin.Text, txtpasswordLogin.Text);
 
+            var roleStore = new RoleStore<IdentityRole>(identityDbContext);
+            var roleManager = new RoleManager<IdentityRole>(roleStore);
+
+            IdentityRole endUserRole = new IdentityRole("endUser");
+            roleManager.Create(endUserRole);
+
             if (user != null)
             {
                 litLoginResult.Text = "Success!.";
                 LogUserIn(userManager, user);
-                Server.Transfer("Private.aspx", true);
+                Server.Transfer("product.aspx", true);
             }
             else
             {

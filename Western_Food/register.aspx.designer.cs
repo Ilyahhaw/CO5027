@@ -13,6 +13,15 @@ namespace Western_Food {
     public partial class login {
         
         /// <summary>
+        /// loginPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel loginPanel;
+        
+        /// <summary>
         /// lblUsername control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal litLoginResult;
+        
+        /// <summary>
+        /// registerPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel registerPanel;
         
         /// <summary>
         /// lblUsernameReg control.
