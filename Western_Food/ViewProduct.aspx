@@ -72,7 +72,7 @@
 
         </ItemTemplate>
     </asp:FormView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Product] WHERE ([ProductID] = @ProductID)">
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT * FROM [Product] WHERE ([ProductID] = @ProductID)">
         <SelectParameters>
             <asp:QueryStringParameter Name="ProductID" QueryStringField="ProductID" Type="Int32" />
         </SelectParameters>
