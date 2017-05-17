@@ -42,6 +42,7 @@
         </UpdateParameters>
     </asp:SqlDataSource>
 
-    <asp:Button ID="btncheckout" runat="server" Text="Checkout to Paypal" />
+     <asp:Button ID="btnmoreproduct" runat="server" Text="More Product" OnClick="btnmoreproduct_Click1" />
+    <asp:Button ID="btncheckout" runat="server" Text="Checkout to Paypal" OnClick="btncheckout_Click1" />
 
 </asp:Content>

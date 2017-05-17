@@ -20,8 +20,8 @@ namespace Western_Food
             string filename = entry.ProductID.ToString() + entry.ImgExt;
             //set the image control's attributes
             imageControl.AlternateText = entry.ImgAlt;
-            //imageControl.Width = 300;//(Unit)entry.ImgWidth;
-            //imageControl.Height = 300;//(Unit)entry.ImgHeight;
+            //imageControl.Width = (Unit)entry.ImgWidth;
+            //imageControl.Height = (Unit)entry.ImgHeight;
             imageControl.ImageUrl = ("UploadedImages/" + filename).Trim();
         }
 
