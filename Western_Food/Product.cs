@@ -14,6 +14,15 @@ namespace Western_Food
     
     public partial class Product
     {
+        public Product(int productId)
+        {
+            ProductID = productId;
+        }
+
+        public Product()
+        {
+        }
+
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public decimal Price { get; set; }

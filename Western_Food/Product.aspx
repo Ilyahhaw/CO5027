@@ -15,11 +15,13 @@
                 <ul>
             </HeaderTemplate>
             <ItemTemplate>
-                <li> 
-                    <a href="<%# Eval("ProductID", "ViewProduct.aspx?ProductID={0}")  %>"><%# Eval("ProductName") %></a>
-                    <p> <%# Eval("Price") %> </p>
-                    <p> <%# Eval("Quantity") %> </p>
-                </li>
+                <div id="product">
+                    <li> 
+                        <a href="<%# Eval("ProductID", "ViewProduct.aspx?ProductID={0}")  %>"><%# Eval("ProductName") %></a>
+                        <p> <%# Eval("Price") %> </p>
+                        <p> <%# Eval("Quantity") %> </p>
+                    </li>
+                </div>
             </ItemTemplate>
             <FooterTemplate>
                 </ul>

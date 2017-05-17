@@ -7,6 +7,7 @@
 
     <div id="AddEntry" runat="server">
         <div>
+            <h1> Data Entry Product </h1>
             <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1">
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
@@ -65,42 +66,55 @@
             </asp:SqlDataSource>
             <br />
         </div>
+      </div>
 
+        <div id="AddNewProduct">
         <div>
             <h1> Add New Product </h1>
-            <br />
-            <asp:Label ID="lblProductName" runat="server" Text="Product Name"></asp:Label>
-            <asp:TextBox ID="txtProductName" runat="server" MaxLength="250"></asp:TextBox>
-        </div>
+            <table style="width: 739px">
+                <tr>
+                    <td> <asp:Label ID="lblProductName" runat="server" Text="Product Name"></asp:Label> </td>
+                    <td> <asp:TextBox ID="txtProductName" runat="server" MaxLength="250" Width="420px"></asp:TextBox> </td>
+                </tr>
+
+                <tr>
+                    <td> <asp:Label ID="lblDescription" runat="server" Text="Description" ></asp:Label> </td>
+                    <td> <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Width="423px"></asp:TextBox> </td>
+                </tr>
+
+                <tr>
+                    <td> <asp:Label ID="lblPrice" runat="server" Text="Price:" ></asp:Label> </td>
+                    <td> <asp:TextBox ID="txtPrice" runat="server" MaxLength="100" Width="420px"></asp:TextBox> </td>
+                </tr>
+
+                <tr>
+                    <td> <asp:Label ID="lblQuantity" runat="server" Text="Quantity" ></asp:Label> </td>
+                    <td> <asp:TextBox ID="txtQuantity" runat="server" MaxLength="100" Width="420px"></asp:TextBox> </td>
+                </tr>
+
+                <tr>
+                    <td><asp:Label ID="lblProductImage" runat="server" Text="Product Image" ></asp:Label></td>
+                    <td><asp:FileUpload ID="fileuploadControl" runat="server" Width="426px" /></td>
+                </tr>
+
+                <tr>
+                    <td><asp:Label ID="Label2" runat="server" Text="Img Alt"></asp:Label> </td>
+                    <td> <asp:TextBox ID="txtAltText" runat="server" Width="420px"></asp:TextBox> </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td> 
+                        <asp:Button ID="btnReset" runat="server" Text="Reset" value="Reset" OnClick="btnReset_Click" />
+                        <asp:Button ID="btnAddEntry" runat="server" Text="Add Blog Entry" OnClick="btnAddEntry_Click" /> 
+                    </td>
+
+                </tr>
+
+                <tr> <asp:Literal ID="litResult" runat="server"></asp:Literal> </tr>
+            </table>
             
-        <div>
-             <asp:Label ID="lblDescription" runat="server" Text="Description" ></asp:Label>
-             <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine"></asp:TextBox>
         </div>
-
-        <div>
-            <asp:Label ID="lblPrice" runat="server" Text="Price:" ></asp:Label>
-            <asp:TextBox ID="txtPrice" runat="server" MaxLength="100"></asp:TextBox>
-        </div>
-
-        <div>
-            <asp:Label ID="lblQuantity" runat="server" Text="Quantity" ></asp:Label>
-            <asp:TextBox ID="txtQuantity" runat="server" MaxLength="100"></asp:TextBox>
-        </div>
-            
-            <asp:Label ID="lblProductImage" runat="server" Text="Product Image" ></asp:Label>
-            <asp:FileUpload ID="fileuploadControl" runat="server" />
-            <p>
-                <asp:Label ID="Label2" runat="server" Text="Img Alt"></asp:Label>
-                <asp:TextBox ID="txtAltText" runat="server"></asp:TextBox>
-            </p>
-       
-             <asp:Button ID="btnAddEntry" runat="server" Text="Add Blog Entry" OnClick="btnAddEntry_Click" />
-
-            <p>
-                <asp:Literal ID="litResult" runat="server"></asp:Literal>
-            </p>
-
         </div>
 
     <div>

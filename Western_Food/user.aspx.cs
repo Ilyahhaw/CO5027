@@ -25,9 +25,6 @@ namespace Western_Food
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
 
-            var roleStore = new RoleStore<IdentityRole>(identityDbContext);
-            var roleManager = new RoleManager<IdentityRole>(roleStore);
-
             //create user 
             var user = new IdentityUser(){UserName = txtUserRegister.Text, Email = txtEmailRegister.Text };
             IdentityResult result = manager.Create(user, txtpasswordRegister.Text);
@@ -50,12 +47,6 @@ namespace Western_Food
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(txtUserLogin.Text, txtpasswordLogin.Text);
-
-            var roleStore = new RoleStore<IdentityRole>(identityDbContext);
-            var roleManager = new RoleManager<IdentityRole>(roleStore);
-
-            IdentityRole endUserRole = new IdentityRole("endUser");
-            roleManager.Create(endUserRole);
 
             if (user != null)
             {

@@ -103,6 +103,14 @@
 
                     </ItemTemplate>
                 </asp:FormView>
+
+                        
+            <div class="products">
+                <div> <asp:LinkButton runat="server" ID="btnAddtoCart" OnClick="btnAddToCart_Click" Text="Add To Cart"> </asp:LinkButton></div>
+            </div>     
+            <a href="ShoppingCart.aspx">cart</a>
+
+
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT * FROM [Product] WHERE ([ProductID] = @ProductID)">
                     <SelectParameters>
                         <asp:QueryStringParameter Name="ProductID" QueryStringField="ProductID" Type="Int32" />

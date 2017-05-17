@@ -85,24 +85,6 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.Panel registerPanel;
         
         /// <summary>
-        /// lblUsernameReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsernameReg;
-        
-        /// <summary>
-        /// txtUserRegister control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserRegister;
-        
-        /// <summary>
         /// ReqFieldValidatorUsername control.
         /// </summary>
         /// <remarks>
@@ -110,24 +92,6 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqFieldValidatorUsername;
-        
-        /// <summary>
-        /// lblEmailReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmailReg;
-        
-        /// <summary>
-        /// txtEmailRegister control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmailRegister;
         
         /// <summary>
         /// RegEmailExValid control.
@@ -148,24 +112,6 @@ namespace Western_Food {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqFieldValidatorEmail;
         
         /// <summary>
-        /// lblPasswordReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPasswordReg;
-        
-        /// <summary>
-        /// txtpasswordRegister control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpasswordRegister;
-        
-        /// <summary>
         /// ReqFieldValidatorPassword control.
         /// </summary>
         /// <remarks>
@@ -173,24 +119,6 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqFieldValidatorPassword;
-        
-        /// <summary>
-        /// lblConfirmedPasswordReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblConfirmedPasswordReg;
-        
-        /// <summary>
-        /// txtConfirmedpassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtConfirmedpassword;
         
         /// <summary>
         /// ReqFieldValidatorConPassword control.
@@ -209,6 +137,78 @@ namespace Western_Food {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        
+        /// <summary>
+        /// lblUsernameReg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUsernameReg;
+        
+        /// <summary>
+        /// txtUserRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtUserRegister;
+        
+        /// <summary>
+        /// lblEmailReg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEmailReg;
+        
+        /// <summary>
+        /// txtEmailRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmailRegister;
+        
+        /// <summary>
+        /// lblPasswordReg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPasswordReg;
+        
+        /// <summary>
+        /// txtpasswordRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtpasswordRegister;
+        
+        /// <summary>
+        /// lblConfirmedPasswordReg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblConfirmedPasswordReg;
+        
+        /// <summary>
+        /// txtConfirmedpassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtConfirmedpassword;
         
         /// <summary>
         /// btnRegister control.

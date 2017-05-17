@@ -17,7 +17,7 @@ namespace Western_Food
 
         protected void btnAddEntry_Click(object sender, EventArgs e)
         {
-            Product entry = new Product();
+            Product entry = new Product ();
             //entry.ProductID = Convert.ToInt32(txtProductID.Text);
             entry.ProductName = txtProductName.Text;
             entry.Description = txtDescription.Text;
@@ -62,6 +62,11 @@ namespace Western_Food
         protected void btnLogout_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+        }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/admin.aspx", true);
         }
     }
 }

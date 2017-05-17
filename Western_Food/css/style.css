@@ -247,21 +247,21 @@
     text-align:center; 
 }
 
-#Login {
-    width:423px;
+#loginpanel {
+    width:390px;
     padding:5px;
     border-right-style:double;
     margin:2% 0% 2% 0%;
-    float:left;
+    position:center;
     height: 174px;
 }
 
-#Login h1{
+#loginpanel h1{
     text-align:center;
     margin-top:4px;
 }
 
-#Login tr td{
+#loginpanel tr td{
     margin-top:5px;
     margin-left:5px;
     margin-right:5px;
@@ -272,26 +272,30 @@
 }
 
 #btnLogin{
-    width:65px;
+    background-color:#ffffff;
+    width:100px;
+    height:40px;
+    border-style:double;
+    font-style:italic;
     margin-top:5px;
     margin-right:5px;
     margin-bottom:5px;
-    margin-left:100px;
+    margin-left:5px;
 }
 
-#Register {
-    width:430px;
+#registerpanel {
+    width:400px;
     padding:5px;
     margin:2% 0% 2% 0%;
-    float:right;
+    float:left;
 }
 
-#Register h1{
+#registerpanel h1{
     text-align:center;
     margin-top:4px;
 }
 
-#Register tr td{
+#registerpanel tr td{
     margin-top:5px;
     margin-left:5px;
     margin-right:5px;
@@ -301,91 +305,38 @@
     text-align:center;
 }
 
+#registerp{
+    font-style:oblique;
+    text-align:center;
+    font-size:14px;
+    float:right;
+}
+
 #btnRegister{
-    width:65px;
+    background-color:#ffffff;
+    width:100px;
+    height:40px;
+    border-style:double;
+    font-style:italic;
     margin-top:5px;
     margin-right:5px;
     margin-bottom:5px;
-    margin-left:100px;
-}
-
-#beverage tr td {
-    background: #ffffff;
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
-    text-align: center;
-}
-
-#beverage tr td {
-    background: #ffffff;
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
-    text-align: center;
-}
-
-#fries tr td {
-    background: #ffffff;
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
-    text-align: center;
-}
-
-#pasta tr td {
-    background: #ffffff;
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
-    text-align: center;
-}
-
-#pastas tr td {
-    background: #ffffff;
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
-}
-
-#sauce tr td {
-    border-style: double;
-    border-color: #808080;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    position: center;
+    margin-left:5px;
 }
 
 #AddEntry{
-    position:center; 
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align:center;
+    position: center;
+    font-size:14px;
+    overflow:hidden;
+    clear:both; 
 }
 
 #imageProduct {
@@ -404,3 +355,59 @@
     text-align: center;
 }
 
+#AddNewProduct h1{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align:center;
+    position: center;
+}
+
+#AddNewProduct table{
+    position: center;
+}
+
+#AddNewProduct tr td{
+    border-style: double;
+    border-color: #808080;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align:center;
+    position: center;
+    font-size:14px;
+}
+
+#btnLogout{
+    background-color:#ffffff;
+    width:100px;
+    height:40px;
+    border-style:double;
+    font-style:italic;
+    float:right;
+}
+
+#product h1{
+    text-align:center;
+}
+
+#product p{
+    position:center;
+    margin:5px;
+    list-style:initial;
+    font-size:16px;
+    display:inline-block;
+}
+
+#product {
+    position:center;
+    list-style:none;
+    list-style-type:none;
+    font-size:16px;
+    display:inline-block;
+    
+}
