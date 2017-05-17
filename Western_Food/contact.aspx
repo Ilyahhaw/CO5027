@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CONTACT US" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Western_Food.contact" %>
+﻿<%@ Page Title="CONTACT US | Great Taste" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Western_Food.contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
     

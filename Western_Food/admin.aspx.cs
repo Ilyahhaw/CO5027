@@ -66,7 +66,7 @@ namespace Western_Food
 
         protected void btnReset_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/admin.aspx", true);
+            Response.Redirect("~/adminlogin.aspx", true);
         }
     }
 }

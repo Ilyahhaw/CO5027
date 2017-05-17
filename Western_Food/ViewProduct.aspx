@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Product Details" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="ViewProduct.aspx.cs" Inherits="Western_Food.ViewProduct" %>
+﻿<%@ Page Title=" PRODUCT DETAILS | Great Taste " Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="ViewProduct.aspx.cs" Inherits="Western_Food.ViewProduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
 
 </asp:Content>
@@ -106,7 +106,7 @@
 
                         
             <div class="products">
-                <div> <asp:LinkButton runat="server" ID="btnAddtoCart" OnClick="btnAddToCart_Click" Text="Add To Cart"> </asp:LinkButton></div>
+                <div> <asp:LinkButton runat="server" ID="btnAddtoCart" Text="Add To Cart"> </asp:LinkButton></div>
             </div>     
             <a href="ShoppingCart.aspx">cart</a>
 

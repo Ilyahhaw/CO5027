@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Western Food | Login" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Western_Food.login1" %>
+﻿<%@ Page Title="ADMIN LOGIN | Great Taste" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="adminlogin.aspx.cs" Inherits="Western_Food.login1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
 </asp:Content>

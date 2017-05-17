@@ -12,16 +12,12 @@ namespace Western_Food
     using System;
     using System.Collections.Generic;
     
-    public partial class Product
+    public partial class Cart
     {
+        public int ID { get; set; }
         public int ProductID { get; set; }
-        public string ProductName { get; set; }
-        public decimal Price { get; set; }
-        public int Quantity { get; set; }
-        public string Description { get; set; }
-        public string ImgAlt { get; set; }
-        public Nullable<int> ImgWidth { get; set; }
-        public Nullable<int> ImgHeight { get; set; }
-        public string ImgExt { get; set; }
+        public int Amount { get; set; }
+        public Nullable<System.DateTime> DatePurchased { get; set; }
+        public bool IsInCart { get; set; }
     }
 }

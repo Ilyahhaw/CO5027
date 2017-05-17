@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Great Taste | Login / Register" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="user.aspx.cs" Inherits="Western_Food.login" %>
+﻿<%@ Page Title="Great Taste | LOGIN/REGISTER" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="user.aspx.cs" Inherits="Western_Food.login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
 

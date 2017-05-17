@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Great Taste | Product" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="product.aspx.cs" Inherits="Western_Food.login" %>
+﻿<%@ Page Title="PRODUCT | Great Taste " Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="product.aspx.cs" Inherits="Western_Food.login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headContentPlaceHolder" runat="server">
 
@@ -18,8 +18,8 @@
                 <div id="product">
                     <li> 
                         <a href="<%# Eval("ProductID", "ViewProduct.aspx?ProductID={0}")  %>"><%# Eval("ProductName") %></a>
-                        <p> <%# Eval("Price") %> </p>
-                        <p> <%# Eval("Quantity") %> </p>
+                        <p> $ <%# Eval("Price") %> </p>
+                        <p> Available in : <%# Eval("Quantity") %> set</p>
                     </li>
                 </div>
             </ItemTemplate>

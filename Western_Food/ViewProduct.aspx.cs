@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using static Western_Food.cart;
 
 namespace Western_Food
 {
@@ -25,5 +24,6 @@ namespace Western_Food
             //imageControl.Height = 300;//(Unit)entry.ImgHeight;
             imageControl.ImageUrl = ("UploadedImages/" + filename).Trim();
         }
+
     }
 }

@@ -156,7 +156,7 @@
 }
 
 #home {
-    background-image: url('../images/background.jpg');
+
     width:900px;
     height:auto;
     overflow:hidden;
@@ -401,13 +401,16 @@
     list-style:initial;
     font-size:16px;
     display:inline-block;
+    position:center;
 }
 
 #product {
+    width:800px;
     position:center;
     list-style:none;
     list-style-type:none;
     font-size:16px;
-    display:inline-block;
+    display:inline-table;
+    position:center;
     
 }

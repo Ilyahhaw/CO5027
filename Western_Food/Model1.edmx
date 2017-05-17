@@ -4,7 +4,22 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'db_1525584_co5027_asg.dbo.Cart' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ProductID" />
+            <PropertyRef Name="Amount" />
+            <PropertyRef Name="IsInCart" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Amount" Type="int" Nullable="false" />
+          <Property Name="DatePurchased" Type="datetime2" Precision="7" />
+          <Property Name="IsInCart" Type="bit" Nullable="false" />
+        </EntityType>
         <EntityType Name="Product">
           <Key>
             <PropertyRef Name="ProductID" />
@@ -21,9 +36,17 @@
         </EntityType>
         <EntityContainer Name="DatabaseModelStoreContainer">
           <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cart" EntityType="Self.Cart" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Cart].[ID] AS [ID], 
+    [Cart].[ProductID] AS [ProductID], 
+    [Cart].[Amount] AS [Amount], 
+    [Cart].[DatePurchased] AS [DatePurchased], 
+    [Cart].[IsInCart] AS [IsInCart]
+    FROM [dbo].[Cart] AS [Cart]</DefiningQuery>
+          </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -43,7 +66,21 @@
         </EntityType>
         <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Products" EntityType="Self.Product" />
+          <EntitySet Name="Carts" EntityType="DatabaseModel.Cart" />
         </EntityContainer>
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ProductID" />
+            <PropertyRef Name="Amount" />
+            <PropertyRef Name="IsInCart" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Amount" Type="Int32" Nullable="false" />
+          <Property Name="DatePurchased" Type="DateTime" Precision="7" />
+          <Property Name="IsInCart" Type="Boolean" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -62,6 +99,17 @@
                 <ScalarProperty Name="ImgWidth" ColumnName="ImgWidth" />
                 <ScalarProperty Name="ImgHeight" ColumnName="ImgHeight" />
                 <ScalarProperty Name="ImgExt" ColumnName="ImgExt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Carts">
+            <EntityTypeMapping TypeName="DatabaseModel.Cart">
+              <MappingFragment StoreEntitySet="Cart">
+                <ScalarProperty Name="IsInCart" ColumnName="IsInCart" />
+                <ScalarProperty Name="DatePurchased" ColumnName="DatePurchased" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

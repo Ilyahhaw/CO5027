@@ -28,7 +28,7 @@ namespace Western_Food
             {
                 litLoginResult.Text = "Success!.";
                 LogUserIn(userManager, user);
-                Server.Transfer("default.aspx", true);
+                Server.Transfer("admin.aspx", true);
             }
             else
             {
